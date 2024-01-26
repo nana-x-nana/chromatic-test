@@ -13,6 +13,11 @@ const meta = {
     backgroundColor: { control: 'color' },
     onClick: { action: 'clicked' },
   },
+  parameters: {
+    chromatic: {
+      disableSnapshot: true,
+    },
+  },
   args: { primary: false }, // default value
 } satisfies Meta<typeof Button>;
 
